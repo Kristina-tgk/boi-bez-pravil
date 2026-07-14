@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Бои без правил</title>
+<style>
+body{
+margin:0;
+background:#1b1b1b;
+font-family:Arial,sans-serif;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+color:white;
+}
+.arena{
+width:800px;
+height:450px;
+background:#4f7f3d;
+border:6px solid #8b5a2b;
+position:relative;
+overflow:hidden;
+}
+.fighter{
+position:absolute;
+bottom:50px;
+width:60px;
+height:120px;
+background:white;
+}
+.left{left:180px;}
+.right{right:180px;}
+.hp{
+position:absolute;
+top:20px;
+height:20px;
+background:red;
+}
+.hp1{left:20px;width:300px;}
+.hp2{right:20px;width:300px;}
+.name{
+position:absolute;
+top:0;
+font-size:20px;
+font-weight:bold;
+}
+.n1{left:20px;}
+.n2{right:20px;}
+</style>
+</head>
+<body>
+
+<div class="arena">
+
+<div class="name n1">Kristena ❤️100 👊</div>
+<div class="name n2">Противник ❤️100 👊</div>
+
+<div class="hp hp1"></div>
+<div class="hp hp2"></div>
+
+<div class="fighter left"></div>
+<div class="fighter right"></div>
+
+</div>
+
+</body>
+</html>
