@@ -1,0 +1,29 @@
+let round = 1;
+
+function nextRound() {
+    round++;
+
+    fighter1.hp = 100;
+    fighter2.hp = 100;
+
+    document.getElementById("hp1").innerText = "❤️100";
+    document.getElementById("hp2").innerText = "❤️100";
+
+    document.getElementById("round").innerText = "Раунд " + round;
+}
+
+function checkWinner() {
+
+    if (fighter1.hp <= 0) {
+        fighter2.wins++;
+        alert("🏆 Победил " + fighter2.name);
+        nextRound();
+    }
+
+    if (fighter2.hp <= 0) {
+        fighter1.wins++;
+        alert("🏆 Победил " + fighter1.name);
+        nextRound();
+    }
+
+}
