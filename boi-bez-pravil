@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Бои без правил</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="arena">
+
+<div class="player left">
+<h2 id="name1">Kristena</h2>
+<img id="avatar1" src="https://placehold.co/100x100">
+<div id="hp1">❤️100</div>
+<div class="fighter">👊</div>
+</div>
+
+<div class="player right">
+<h2 id="name2">Player2</h2>
+<img id="avatar2" src="https://placehold.co/100x100">
+<div id="hp2">❤️100</div>
+<div class="fighter">👊</div>
+</div>
+
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
